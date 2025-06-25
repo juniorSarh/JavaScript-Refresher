@@ -1,6 +1,6 @@
-const Firstname = "Sabelo"
-const lastname = "Gumede"
-let age = undefined
+let Firstname = document.getElementById('name')
+let lastname = document.getElementById('lastname')
+let age = document.getElementById('age')
 
 let isMale=true
 console.log(Firstname)
@@ -26,7 +26,10 @@ let modules =[
     {newmodule:"info systems",
     newmodule1:"databases"
     },
-    "excel"
+    "excel",
+    "movies"
 ]
 
 console.log(modules);
+
+Firstname=getElementById('name')
